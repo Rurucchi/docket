@@ -1,0 +1,23 @@
+.cardContainer {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.textArea {
+  background: transparent;
+  color: white;
+  resize: none;
+  border: 0 none;
+  width: 240px;
+  height: 240px;
+  font-size: 1.35em;
+  outline: none;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow: auto;
+}
