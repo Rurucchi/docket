@@ -1,0 +1,24 @@
+<div class="sidebarContainer">
+  <h1 class="title">Docket</h1>
+  <mat-divider class="topdivider"></mat-divider>
+  <div class="buttonContainer">
+    <button
+      mat-fab
+      color="basic"
+      aria-label="Example icon button with a delete icon"
+    >
+      <mat-icon>add</mat-icon>
+    </button>
+    <button
+      mat-mini-fab
+      color="primary"
+      (click)="changeColor('#3f51b5')"
+    ></button>
+    <button
+      mat-mini-fab
+      color="accent"
+      (click)="changeColor('#ff4081')"
+    ></button>
+    <button mat-mini-fab color="warn" (click)="changeColor('#f44336')"></button>
+  </div>
+</div>

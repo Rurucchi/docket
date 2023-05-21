@@ -1,0 +1,23 @@
+.appBody {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.leftContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  overflow: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  height: fit-content;
+}
